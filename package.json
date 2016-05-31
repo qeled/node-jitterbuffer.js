@@ -1,0 +1,17 @@
+{
+  "name": "jitterbuffer.js",
+  "version": "1.0.0",
+  "description": "Jitter buffer from libspeexdsp with wrappers, compiled using emscripten",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha tests/test"
+  },
+  "author": "qeled",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
